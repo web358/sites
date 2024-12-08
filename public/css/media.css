@@ -152,7 +152,7 @@ color: #4dd0e1;
     }
 
   .additionalText2 p, .additionalText3 p,
-  .galerySpan, .galerySpan2, .galerySpan3, .galerySpan4, .galerySpan5 {
+  .galerySpan, .galerySpan2, .galerySpan3, .galerySpan4, .galerySpan5, .galerySpan6 {
     height: 200px;
     width: 450px;
     font-weight: 900;
@@ -169,7 +169,7 @@ color: #4dd0e1;
     .additionalText3 p::before, .additionalText3 p::after,
     .galerySpan::before, .galerySpan::after, .galerySpan2::before, .galerySpan2::after,
     .galerySpan3::before, .galerySpan3::after, .galerySpan4::before, .galerySpan4::after, 
-    .galerySpan5::before, .galerySpan5::after {
+    .galerySpan5::before, .galerySpan5::after, .galerySpan6::after {
     content: attr(data-text);
     position: absolute;
     top: 0;
@@ -180,7 +180,7 @@ color: #4dd0e1;
     }
     .additionalText2 p:hover, .additionalText3 p:hover,
     .galerySpan:hover, .galerySpan2:hover, .galerySpan3:hover,
-    .galerySpan4:hover, .galerySpan5:hover{
+    .galerySpan4:hover, .galerySpan5:hover, .galerySpan6:hover {
     color: #ffffff;
     -webkit-text-stroke: 1px #212121;
     transition: 0.25s;
@@ -188,7 +188,7 @@ color: #4dd0e1;
     .additionalText2 p:hover::before, .additionalText3 p:hover::before,
     .galerySpan:hover::before, .galerySpan2:hover::before, 
     .galerySpan3:hover::before, .galerySpan4:hover::before,  
-    .galerySpan5:hover::before{
+    .galerySpan5:hover::before, .galerySpan6:hover::before{
     transform: translate(34px, -12px);
     color: #ff1744;
     -webkit-text-stroke: 1px #212121;
@@ -196,7 +196,7 @@ color: #4dd0e1;
     .additionalText2 p:hover::after, .additionalText3 p:hover::after,
     .galerySpan:hover::after, .galerySpan2:hover::after,
     .galerySpan3:hover::after, .galerySpan4:hover::after, 
-    .galerySpan5:hover::after{
+    .galerySpan5:hover::after, .galerySpan6:hover::after{
     transform: translate(44px, -24px);
     color: #4dd0e1;
     -webkit-text-stroke: 1px #212121;
