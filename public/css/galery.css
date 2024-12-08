@@ -4,9 +4,6 @@
   min-width: 85%;
   width: fit-content;
   margin-left: 10%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
  }
 
  .contactsMain2 div {
@@ -28,9 +25,9 @@
   text-decoration: none;
     padding: 10px;
 }
-.galerySpan, .galerySpan2, .galerySpan3, .galerySpan4, .galerySpan5 {
+.galerySpan, .galerySpan2, .galerySpan3, .galerySpan4, .galerySpan5, .galerySpan6 {
   font-weight: 900;
-  margin-top: 4%;
+  margin-top: 3%;
   font-size: 15px;
   color: rgb(255, 255, 255);
   -webkit-text-stroke: 1px #212121;
@@ -47,7 +44,7 @@
 }
 
 .galerySpan3{
-  margin-left: 19%;
+  margin-left: 0.1%;
 }
 
 .galerySpan4{
@@ -56,6 +53,9 @@
 
 .galerySpan5{
   margin-left: 23%;
+ }
+ .galerySpan6{
+  margin-left: 33%;
  }
 
 .contactsMain2 div h2 {
